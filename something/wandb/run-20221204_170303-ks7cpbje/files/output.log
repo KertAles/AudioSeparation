@@ -1,0 +1,148 @@
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+Epoch 1/10:   9%|▉         | 2/22 [00:05<00:57,  2.89s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:10<00:47,  2.63s/img, loss (batch)=nan]
+Epoch 1/10:  27%|██▋       | 6/22 [00:15<00:40,  2.52s/img, loss (batch)=nan]
+
+Epoch 1/10:  36%|███▋      | 8/22 [00:20<00:35,  2.50s/img, loss (batch)=nan]
+Epoch 1/10:  45%|████▌     | 10/22 [00:25<00:30,  2.52s/img, loss (batch)=nan]
+
+Epoch 1/10:  55%|█████▍    | 12/22 [00:30<00:25,  2.58s/img, loss (batch)=nan]
+
+Epoch 1/10:  64%|██████▎   | 14/22 [00:36<00:21,  2.66s/img, loss (batch)=nan]
+
+Epoch 1/10:  73%|███████▎  | 16/22 [00:42<00:16,  2.73s/img, loss (batch)=nan]
+Epoch 1/10:  82%|████████▏ | 18/22 [00:48<00:11,  2.84s/img, loss (batch)=nan]
+Epoch 1/10:  91%|█████████ | 20/22 [00:54<00:05,  2.88s/img, loss (batch)=nan]
+Epoch 1/10: 100%|██████████| 22/22 [01:00<00:00,  2.93s/img, loss (batch)=nan]
+Epoch 1/10: 100%|██████████| 22/22 [01:06<00:00,  3.01s/img, loss (batch)=nan]
+INFO: Checkpoint 1 saved!
+Epoch 2/10:   9%|▉         | 2/22 [00:05<00:54,  2.73s/img, loss (batch)=nan]
+
+Epoch 2/10:  18%|█▊        | 4/22 [00:12<00:56,  3.14s/img, loss (batch)=nan]
+Epoch 2/10:  27%|██▋       | 6/22 [00:19<00:53,  3.35s/img, loss (batch)=nan]
+Epoch 2/10:  36%|███▋      | 8/22 [00:26<00:46,  3.32s/img, loss (batch)=nan]
+Epoch 2/10:  45%|████▌     | 10/22 [00:32<00:39,  3.27s/img, loss (batch)=nan]
+
+Epoch 2/10:  55%|█████▍    | 12/22 [00:39<00:32,  3.29s/img, loss (batch)=nan]
+
+Epoch 2/10:  64%|██████▎   | 14/22 [00:45<00:26,  3.31s/img, loss (batch)=nan]
+Epoch 2/10:  73%|███████▎  | 16/22 [00:52<00:19,  3.29s/img, loss (batch)=nan]
+
+Epoch 2/10:  82%|████████▏ | 18/22 [00:58<00:13,  3.30s/img, loss (batch)=nan]
+
+Epoch 2/10:  91%|█████████ | 20/22 [01:05<00:06,  3.33s/img, loss (batch)=nan]
+
+Epoch 2/10: 100%|██████████| 22/22 [01:13<00:00,  3.46s/img, loss (batch)=nan]
+
+Epoch 2/10: 100%|██████████| 22/22 [01:19<00:00,  3.62s/img, loss (batch)=nan]
+INFO: Checkpoint 2 saved!
+Epoch 3/10:   9%|▉         | 2/22 [00:05<00:59,  2.96s/img, loss (batch)=nan]
+Epoch 3/10:  18%|█▊        | 4/22 [00:12<00:58,  3.26s/img, loss (batch)=nan]
+
+Epoch 3/10:  27%|██▋       | 6/22 [00:19<00:52,  3.27s/img, loss (batch)=nan]
+
+Epoch 3/10:  36%|███▋      | 8/22 [00:26<00:46,  3.32s/img, loss (batch)=nan]
+Epoch 3/10:  45%|████▌     | 10/22 [00:32<00:40,  3.34s/img, loss (batch)=nan]
+
+Epoch 3/10:  55%|█████▍    | 12/22 [00:39<00:33,  3.37s/img, loss (batch)=nan]
+
+Epoch 3/10:  64%|██████▎   | 14/22 [00:46<00:27,  3.38s/img, loss (batch)=nan]
+
+Epoch 3/10:  73%|███████▎  | 16/22 [00:55<00:22,  3.74s/img, loss (batch)=nan]
+Epoch 3/10:  82%|████████▏ | 18/22 [01:02<00:14,  3.67s/img, loss (batch)=nan]
+
+Epoch 3/10:  91%|█████████ | 20/22 [01:09<00:07,  3.62s/img, loss (batch)=nan]
+Epoch 3/10: 100%|██████████| 22/22 [01:16<00:00,  3.57s/img, loss (batch)=nan]
+Epoch 3/10: 100%|██████████| 22/22 [01:23<00:00,  3.79s/img, loss (batch)=nan]
+INFO: Checkpoint 3 saved!
+Epoch 4/10:   9%|▉         | 2/22 [00:07<01:19,  3.99s/img, loss (batch)=nan]
+
+Epoch 4/10:  18%|█▊        | 4/22 [00:17<01:22,  4.56s/img, loss (batch)=nan]
+
+Epoch 4/10:  27%|██▋       | 6/22 [00:24<01:05,  4.08s/img, loss (batch)=nan]
+
+Epoch 4/10:  36%|███▋      | 8/22 [00:32<00:56,  4.03s/img, loss (batch)=nan]
+Epoch 4/10:  45%|████▌     | 10/22 [00:39<00:46,  3.85s/img, loss (batch)=nan]
+
+Epoch 4/10:  55%|█████▍    | 12/22 [00:47<00:37,  3.77s/img, loss (batch)=nan]
+
+Epoch 4/10:  64%|██████▎   | 14/22 [00:55<00:30,  3.83s/img, loss (batch)=nan]
+Epoch 4/10:  73%|███████▎  | 16/22 [01:02<00:22,  3.75s/img, loss (batch)=nan]
+
+Epoch 4/10:  82%|████████▏ | 18/22 [01:09<00:14,  3.72s/img, loss (batch)=nan]
+
+Epoch 4/10:  91%|█████████ | 20/22 [01:18<00:08,  4.02s/img, loss (batch)=nan]
+Epoch 4/10: 100%|██████████| 22/22 [01:25<00:00,  3.87s/img, loss (batch)=nan]
+Epoch 4/10: 100%|██████████| 22/22 [01:33<00:00,  4.27s/img, loss (batch)=nan]
+INFO: Checkpoint 4 saved!
+Epoch 5/10:   9%|▉         | 2/22 [00:06<01:07,  3.40s/img, loss (batch)=nan]
+Epoch 5/10:  18%|█▊        | 4/22 [00:14<01:04,  3.58s/img, loss (batch)=nan]
+
+Epoch 5/10:  27%|██▋       | 6/22 [00:21<00:57,  3.59s/img, loss (batch)=nan]
+Epoch 5/10:  36%|███▋      | 8/22 [00:28<00:49,  3.57s/img, loss (batch)=nan]
+
+Epoch 5/10:  45%|████▌     | 10/22 [00:35<00:43,  3.59s/img, loss (batch)=nan]
+
+Epoch 5/10:  55%|█████▍    | 12/22 [00:42<00:35,  3.57s/img, loss (batch)=nan]
+Epoch 5/10:  64%|██████▎   | 14/22 [00:50<00:29,  3.69s/img, loss (batch)=nan]
+Epoch 5/10:  73%|███████▎  | 16/22 [00:58<00:22,  3.78s/img, loss (batch)=nan]
+
+Epoch 5/10:  82%|████████▏ | 18/22 [01:05<00:14,  3.72s/img, loss (batch)=nan]
+Epoch 5/10:  91%|█████████ | 20/22 [01:13<00:07,  3.69s/img, loss (batch)=nan]
+Epoch 5/10: 100%|██████████| 22/22 [01:20<00:00,  3.68s/img, loss (batch)=nan]
+
+Epoch 5/10: 100%|██████████| 22/22 [01:27<00:00,  3.97s/img, loss (batch)=nan]
+INFO: Checkpoint 5 saved!
+Epoch 6/10:   9%|▉         | 2/22 [00:06<01:07,  3.37s/img, loss (batch)=nan]
+
+Epoch 6/10:  18%|█▊        | 4/22 [00:14<01:05,  3.62s/img, loss (batch)=nan]
+
+Epoch 6/10:  27%|██▋       | 6/22 [00:21<00:59,  3.69s/img, loss (batch)=nan]
+
+Epoch 6/10:  36%|███▋      | 8/22 [00:30<00:55,  3.95s/img, loss (batch)=nan]
+
+Epoch 6/10:  45%|████▌     | 10/22 [00:38<00:46,  3.90s/img, loss (batch)=nan]
+
+Epoch 6/10:  55%|█████▍    | 12/22 [00:45<00:38,  3.86s/img, loss (batch)=nan]
+
+Epoch 6/10:  64%|██████▎   | 14/22 [00:52<00:30,  3.78s/img, loss (batch)=nan]
+
+Epoch 6/10:  73%|███████▎  | 16/22 [01:00<00:22,  3.76s/img, loss (batch)=nan]
+
+Epoch 6/10:  82%|████████▏ | 18/22 [01:08<00:15,  3.80s/img, loss (batch)=nan]
+Epoch 6/10:  91%|█████████ | 20/22 [01:15<00:07,  3.78s/img, loss (batch)=nan]
+
+Epoch 6/10: 100%|██████████| 22/22 [01:23<00:00,  3.75s/img, loss (batch)=nan]
+Epoch 6/10: 100%|██████████| 22/22 [01:31<00:00,  4.16s/img, loss (batch)=nan]
+INFO: Checkpoint 6 saved!
+Epoch 7/10:   9%|▉         | 2/22 [00:07<01:12,  3.60s/img, loss (batch)=nan]
+
+Epoch 7/10:  18%|█▊        | 4/22 [00:14<01:04,  3.60s/img, loss (batch)=nan]
+
+Epoch 7/10:  27%|██▋       | 6/22 [00:21<00:56,  3.55s/img, loss (batch)=nan]
+
+Epoch 7/10:  36%|███▋      | 8/22 [00:28<00:50,  3.64s/img, loss (batch)=nan]
+Epoch 7/10:  45%|████▌     | 10/22 [00:36<00:43,  3.61s/img, loss (batch)=nan]
+
+Epoch 7/10:  55%|█████▍    | 12/22 [00:44<00:38,  3.86s/img, loss (batch)=nan]
+
+Epoch 7/10:  64%|██████▎   | 14/22 [00:51<00:30,  3.75s/img, loss (batch)=nan]
+
+Epoch 7/10:  73%|███████▎  | 16/22 [01:03<00:26,  4.43s/img, loss (batch)=nan]
+
+Epoch 7/10:  82%|████████▏ | 18/22 [01:16<00:19,  4.99s/img, loss (batch)=nan]
+Epoch 7/10:  91%|█████████ | 20/22 [01:24<00:09,  4.77s/img, loss (batch)=nan]
+
+Epoch 7/10: 100%|██████████| 22/22 [01:31<00:00,  4.39s/img, loss (batch)=nan]
+
+Epoch 7/10: 100%|██████████| 22/22 [01:38<00:00,  4.49s/img, loss (batch)=nan]
+INFO: Checkpoint 7 saved!
+Validation round:   0%|          | 0/1 [00:00<?, ?batch/s], loss (batch)=nan]

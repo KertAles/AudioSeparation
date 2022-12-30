@@ -1,0 +1,1 @@
+{"train loss": NaN, "step": 2, "epoch": 1, "_timestamp": 1670170546.4856894, "_runtime": 17.776052474975586, "_step": 2, "learning rate": 1e-05, "validation Dice": 749862.4375, "_wandb": {"runtime": 22}}

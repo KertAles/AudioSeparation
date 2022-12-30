@@ -1,0 +1,20 @@
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      8
+        Learning rate:   1e-05
+        Training size:   2
+        Validation size: 0
+        Checkpoints:     True
+        Device:          cuda
+INFO: Using device cuda
+[4mReloaded modules[24m: read_data, evaluate, unet.unet_parts, unet.unet_model, unet
+> [1mf:\faks\cbsp\project\train_model.py[22m(2)<module>[1m()
+[1m      1 # -*- coding: utf-8 -*-
+[1m----> 2 """
+[1m      3 [22mCreated on Sun Dec  [1m4[22m [1m11:44:25[22m [1m2022
+[1m      4 
+[1m      5 @[22mauthor[1m:[22m Kert PC
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling

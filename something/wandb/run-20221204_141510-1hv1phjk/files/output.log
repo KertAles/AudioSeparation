@@ -1,0 +1,7 @@
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      8
+        Learning rate:   1e-05
+        Training size:   2
+        Validation size: 0
+        Checkpoints:     True

@@ -1,0 +1,26 @@
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+Epoch 1/10:   9%|▉         | 2/22 [00:06<01:01,  3.09s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:19<01:32,  5.15s/img, loss (batch)=nan]
+
+INFO: Saved interrupt
+[4mReloaded modules[24m: evaluate, unet.unet_parts, unet.unet_model, unet, read_data
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+(44100, array([[-17, -16],
+       [-31, -31],
+       [-27, -28],
+       ...,
+       [  0,   0],
+       [  0,   0],
+       [  0,   0]], dtype=int16))

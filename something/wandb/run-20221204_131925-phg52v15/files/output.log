@@ -1,0 +1,16 @@
+
+*** NameError: name '_spyderpdb_locals' is not defined
+INFO: Starting training:
+        Epochs:          30
+        Batch size:      32
+        Learning rate:   1e-05
+        Training size:   2
+        Validation size: 0
+        Checkpoints:     True
+        Device:          cuda
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+[4mReloaded modules[24m: read_data, evaluate, unet.unet_parts, unet.unet_model

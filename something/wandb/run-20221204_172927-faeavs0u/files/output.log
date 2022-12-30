@@ -1,0 +1,14 @@
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+Epoch 1/10:   9%|▉         | 2/22 [00:05<00:53,  2.70s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:12<00:58,  3.25s/img, loss (batch)=nan]
+
+Epoch 1/10:  27%|██▋       | 6/22 [00:18<00:48,  3.04s/img, loss (batch)=nan]
+

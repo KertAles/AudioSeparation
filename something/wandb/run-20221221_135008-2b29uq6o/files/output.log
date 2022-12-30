@@ -1,0 +1,137 @@
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+
+Epoch 1/10:   9%|▉         | 2/22 [00:05<00:52,  2.63s/img]
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:52,  2.63s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:11<00:52,  2.92s/img, loss (batch)=nan]
+Epoch 1/10:  18%|█▊        | 4/22 [00:12<00:52,  2.92s/img, loss (batch)=nan]
+
+Epoch 1/10:  27%|██▋       | 6/22 [00:17<00:47,  2.97s/img, loss (batch)=nan]
+Epoch 1/10:  27%|██▋       | 6/22 [00:18<00:47,  2.97s/img, loss (batch)=nan]
+
+Epoch 1/10:  27%|██▋       | 6/22 [00:23<01:03,  3.97s/img, loss (batch)=nan]
+INFO: Saved interrupt
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+[4mReloaded modules[24m: read_data, evaluate, unet.unet_parts, unet.unet_model, unet
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+Epoch 1/10:   0%|          | 0/22 [00:00<?, ?img/s]
+Epoch 1/10:   9%|▉         | 2/22 [00:24<03:47, 11.36s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:27<01:48,  6.02s/img, loss (batch)=nan]
+Epoch 1/10:  18%|█▊        | 4/22 [00:27<01:48,  6.02s/img, loss (batch)=nan]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x000002712E000A60>
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\torch_env\lib\site-packages\torch\utils\data\dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "E:\Anaconda\envs\torch_env\lib\site-packages\torch\utils\data\dataloader.py", line 1301, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "E:\Anaconda\envs\torch_env\lib\multiprocessing\process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "E:\Anaconda\envs\torch_env\lib\multiprocessing\popen_spawn_win32.py", line 108, in wait
+    res = _winapi.WaitForSingleObject(int(self._handle), msecs)
+KeyboardInterrupt:
+Epoch 1/10:  18%|█▊        | 4/22 [00:30<02:18,  7.69s/img, loss (batch)=nan]
+INFO: Saved interrupt
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x000002712E000A60>
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\torch_env\lib\site-packages\torch\utils\data\dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "E:\Anaconda\envs\torch_env\lib\site-packages\torch\utils\data\dataloader.py", line 1301, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "E:\Anaconda\envs\torch_env\lib\multiprocessing\process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "E:\Anaconda\envs\torch_env\lib\multiprocessing\popen_spawn_win32.py", line 108, in wait
+    res = _winapi.WaitForSingleObject(int(self._handle), msecs)
+KeyboardInterrupt:
+[4mReloaded modules[24m: read_data, evaluate, unet.unet_parts, unet.unet_model, unet
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+
+Epoch 1/10:   9%|▉         | 2/22 [00:05<00:45,  2.26s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:10<00:40,  2.24s/img, loss (batch)=nan]
+
+Epoch 1/10:  18%|█▊        | 4/22 [00:13<01:01,  3.39s/img, loss (batch)=nan]
+[4mReloaded modules[24m: evaluate, unet.unet_parts, unet.unet_model, unet, read_data
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+
+Epoch 1/10:   0%|          | 0/22 [00:03<?, ?img/s]
+[4mReloaded modules[24m: evaluate, unet.unet_parts, unet.unet_model, unet, read_data
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+
+Epoch 1/10:   0%|          | 0/22 [00:05<?, ?img/s]
+[4mReloaded modules[24m: evaluate, unet.unet_parts, unet.unet_model, unet, read_data
+INFO: Using device cuda
+INFO: Network:
+	1 input channels
+	1 output channels (classes)
+	Transposed conv upscaling
+INFO: Starting training:
+        Epochs:          10
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   22
+        Validation size: 2
+        Checkpoints:     True
+        Device:          cuda
+Epoch 1/10:   9%|▉         | 2/22 [00:04<00:46,  2.33s/img]
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:46,  2.33s/img, loss (batch)=nan]
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
+Epoch 1/10:   9%|▉         | 2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
+        Checkpoints:     True2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
+        Checkpoints:     True2/22 [00:06<00:46,  2.33s/img, loss (INFO: Validation Dice score: 80.75750732421875
