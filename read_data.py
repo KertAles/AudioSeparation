@@ -144,19 +144,17 @@ class BasicDataset(Dataset):
         
   
     def __getitem__(self, idx):
-        #mask = self.gt[idx]
-        #img = self.signals[idx]
-        
+ 
         #print('Loading data : ' + self.ids[idx])
         
-        img, mask = self.load(idx)
+        track, separation = self.load(idx)
         
 
 
-        assert img.size == mask.size, \
-            f'Image and mask {idx} should be the same size, but are {img.size} and {mask.size}'
+        assert track.size == separation.size, \
+            f'Track and separation {idx} should be the same size, but are {track.size} and {separation.size}'
 
         return {
-            'image': torch.as_tensor(img.copy()).float().contiguous(),
-            'mask': torch.as_tensor(mask.copy()).float().contiguous()
+            'track': torch.as_tensor(track.copy()).float().contiguous(),
+            'separation': torch.as_tensor(separation.copy()).float().contiguous()
         }

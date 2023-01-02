@@ -11,21 +11,16 @@ def evaluate(net, dataloader, device):
 
     # iterate over the validation set
     for batch in tqdm(dataloader, total=num_val_batches, desc='Validation round', unit='batch', leave=False):
-        image, mask_true = batch['image'], batch['mask']
+        signal, sep_true = batch['track'], batch['separation']
         # move images and labels to correct device and type
-        image = image.to(device=device, dtype=torch.float32)
-        mask_true = mask_true.to(device=device, dtype=torch.float32)
+        signal = signal.to(device=device, dtype=torch.float32)
+        sep_true = sep_true.to(device=device, dtype=torch.float32)
 
         with torch.no_grad():
             # predict the mask
-            mask_pred = net(image)
-
-            #mask_pred = (F.sigmoid(mask_pred) > 0.5).float()
-            #mask_numpy = mask_true.cpu().numpy()
-            #pred_numpy = mask_pred.cpu().numpy()
+            sep_pred = net(signal)
             
-            
-            l2_norm += np.linalg.norm(mask_true.cpu() - mask_pred.cpu())
+            l2_norm += np.linalg.norm(sep_true.cpu() - sep_pred.cpu())
 
            
 
@@ -46,19 +41,18 @@ def evaluate_with_loss(net, dataloader, device, criterion):
 
     # iterate over the validation set
     for batch in tqdm(dataloader, total=num_val_batches, desc='Validation round', unit='batch', leave=False):
-        image, mask_true = batch['image'], batch['mask']
+        signal, sep_true = batch['track'], batch['separation']
         # move images and labels to correct device and type
-        image = image.to(device=device, dtype=torch.float32)
-        mask_true = mask_true.to(device=device, dtype=torch.float32)
+        signal = signal.to(device=device, dtype=torch.float32)
+        sep_true = sep_true.to(device=device, dtype=torch.float32)
 
         with torch.no_grad():
-            # predict the mask
-            mask_pred = net(image)
-            loss = criterion(mask_pred, mask_true)
-            loss /= float(mask_pred.size(2))
+            sep_pred = net(signal)
+            loss = criterion(sep_pred, sep_true)
+            loss /= float(sep_pred.size(2))
             mse_loss += loss.item()
 
-            l2_norm += np.linalg.norm(mask_true.cpu() - mask_pred.cpu())
+            l2_norm += np.linalg.norm(sep_true.cpu() - sep_pred.cpu())
             
 
         
